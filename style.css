@@ -30,7 +30,7 @@ p1 {
 
 h1 {
     font-family: 'open creepster',creepster;
-    color: rgba(157, 7, 30, 0.8);
+    color: rgba(245, 144, 39, 0.8);
 }
 
 .glitch {
@@ -95,7 +95,7 @@ h1 {
 #content {
     float: left;
     width: 1020px;
-    color: white;
+    color: wheat;
     font-family: 'Times New Roman';
     font-size: larger;
 }
@@ -110,6 +110,24 @@ h1 {
 	text-align: center;
 	padding: 100px;
 
+}
+
+h2 {
+    float: left;
+    width: 1020px;
+    color: rgba(245, 144, 39, 0.8);
+    font-family: 'Times New Roman';
+    font-size: 35px;
+}
+
+
+
+h3 {
+    float: left;
+    width: 1020px;
+    color: rgba(252, 255, 0, 0.80);
+    font-family: 'Times New Roman';
+    font-size: larger;
 }
 
 h6 {
@@ -159,9 +177,9 @@ h6 {
     .floating-menu a,
     .floating-menu h3 {
         font-size: 20px;
-        display: block;
+        display: table-row;
         margin: 0 0.5em;
-        color: rgb(252, 255, 0, 0.80);
+        color: rgba(252, 255, 0, 0.80);
     }
   
  h1{
@@ -178,7 +196,7 @@ h6 {
     text-decoration: none;
     color: rgba(252, 255, 0, 0.80);
     font-family: 'Times New Roman', Times, serif;
-    border: 1px solid rgb(252, 255, 0, 0.80);
+    border: 1px solid rgba(252, 255, 0, 0.80);
     padding: 12px 34px;
     font-size: 16px;
     background: transparent;
