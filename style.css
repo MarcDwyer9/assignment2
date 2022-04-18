@@ -100,10 +100,6 @@ h1 {
     font-size: larger;
 }
 
-#secondary {
-    float: left;
-    width: 240px;
-}
 
 #footer {
     clear: both;
@@ -212,8 +208,9 @@ h6 {
     }
 .row {
     margin-top:3%;
-    display: block;
+    display: contents;
     justify-content: space-between;
+
 }
 
 .effect:hover {
@@ -228,5 +225,22 @@ h6 {
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+}
+table, tr, th, td {
+    border: 2px solid darkred;
+    width: 100px;
+   
+}
+
+th {
+    color: rgba(245, 144, 39, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+tr {
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+   
 }
 
